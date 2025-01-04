@@ -15,6 +15,10 @@ db = client[DB_NAME]
 users=db['users']
 transactions=db['transactions']
 
+@app.route("/")
+def index():
+    return "server is running"
+
 @app.route("/checkbal", methods=['POST'])
 def checkbal():
     id = request.args.get('id')
