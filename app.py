@@ -19,7 +19,7 @@ transactions=db['transactions']
 def index():
     return "server is running"
 
-@app.route("/checkbal", methods=['POST'])
+@app.route("/checkbal")
 def checkbal():
     id = request.args.get('id')
     
