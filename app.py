@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # MongoDB Configuration
-MONGO_URI = "mongodb+srv://krishnareddy:1234567890@diploma.1v5g6.mongodb.net/"
+MONGO_URI = "mongodb+srv://Manoj:21f01a0570@cluster0.howeq.mongodb.net/"
 DB_NAME = "banking"
 
 # Initialize MongoDB client
